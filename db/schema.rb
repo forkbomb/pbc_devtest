@@ -11,16 +11,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171114213000) do
+ActiveRecord::Schema.define(version: 20171114215200) do
 
   create_table "countries", force: :cascade do |t|
     t.string  "country_code"
     t.integer "panel_provider_id"
   end
 
+  create_table "location_groups", force: :cascade do |t|
+    t.string  "name"
+    t.integer "panel_provider_id"
+    t.integer "country_id"
+  end
+
   create_table "panel_providers", force: :cascade do |t|
     t.string "code"
     t.string "type"
   end
+
+  create_table "target_groups", force: :cascade do |t|
+    t.string  "name"
+    t.integer "external_id"
+    t.string  "secret_code"
+    t.integer "parent_id"
+    t.integer "panel_provider_id"
+  end
+
+  add_index "target_groups", ["external_id", "secret_code"], name: "index_target_groups_on_external_id_and_secret_code", unique: true
+  add_index "target_groups", ["parent_id"], name: "index_target_groups_on_parent_id"
 
 end
