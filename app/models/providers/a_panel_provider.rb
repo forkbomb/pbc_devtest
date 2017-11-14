@@ -1,8 +1,8 @@
 class Providers::APanelProvider < PanelProvider
-    include TimeComSupport
+    include DownloadableSupport
 
     def calculate_price
-        fetch_data
+        fetch_data("http://time.com")
         a_counter = 0
         body = Nokogiri::HTML(@response.body)
         body.css('head').remove

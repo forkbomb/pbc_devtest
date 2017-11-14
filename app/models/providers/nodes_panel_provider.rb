@@ -1,8 +1,8 @@
 class Providers::NodesPanelProvider < PanelProvider
-    include TimeComSupport
+    include DownloadableSupport
 
     def calculate_price
-        fetch_data
+        fetch_data("http://time.com")
         nodes_count = 0
         body = Nokogiri::HTML(@response.body)
         body.xpath('//comment').remove

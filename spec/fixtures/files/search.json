@@ -1,0 +1,203 @@
+{
+ "start": 0,
+ "num_found": 2,
+ "numFound": 2,
+ "docs": [
+  {
+   "title_suggest": "50 Shades Darker",
+   "publish_place": [
+    "Australia"
+   ],
+   "has_fulltext": false,
+   "edition_count": 5,
+   "edition_key": [
+    "OL25420832M",
+    "OL25420833M",
+    "OL25262064M",
+    "OL25415373M",
+    "OL25434737M"
+   ],
+   "last_modified_i": 1387046211,
+   "title": "50 Shades Darker",
+   "publisher": [
+    "",
+    "The Writer's Coffee Shop",
+    "the writer's coffee shop publishing house",
+    "knopf doubleday"
+   ],
+   "author_alternative_name": [
+    "Erika Leonard"
+   ],
+   "publish_year": [
+    2011,
+    2012
+   ],
+   "seed": [
+    "/books/OL25420832M",
+    "/books/OL25420833M",
+    "/books/OL25262064M",
+    "/books/OL25415373M",
+    "/books/OL25434737M",
+    "/works/OL16574358W",
+    "/authors/OL7094166A"
+   ],
+   "first_publish_year": 2011,
+   "author_name": [
+    "E. L. James"
+   ],
+   "key": "/works/OL16574358W",
+   "text": [
+    "OL25420832M",
+    "OL25420833M",
+    "OL25262064M",
+    "OL25415373M",
+    "OL25434737M",
+    "E. L. James",
+    "OL7094166A",
+    "50 Shades Darker",
+    "/works/OL16574358W",
+    "",
+    "The Writer's Coffee Shop",
+    "the writer's coffee shop publishing house",
+    "knopf doubleday",
+    "50 shades darker",
+    "50 shades darker ",
+    "Erika Leonard"
+   ],
+   "publish_date": [
+    "September 2011",
+    "2011",
+    "2012"
+   ],
+   "author_key": [
+    "OL7094166A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Fifty shades of Grey",
+   "edition_key": [
+    "OL25777741M",
+    "OL25435912M",
+    "OL25373113M",
+    "OL25416923M",
+    "OL25419054M",
+    "OL25420718M",
+    "OL25421057M",
+    "OL25419658M",
+    "OL25620201M"
+   ],
+   "cover_i": 7239755,
+   "isbn": [
+    "0385363125",
+    "97834UE0348",
+    "9780385363129"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL25777741M",
+    "OL25435912M",
+    "OL25373113M",
+    "OL25416923M",
+    "OL25419054M",
+    "OL25420718M",
+    "OL25421057M",
+    "OL25419658M",
+    "OL25620201M",
+    "0385363125",
+    "97834UE0348",
+    "9780385363129",
+    "E. L. James",
+    "OL7094166A",
+    "Man-woman relationships",
+    "Fiction",
+    "Fifty shades of Grey",
+    "/works/OL16700868W",
+    "E.L. James",
+    "Random House Large Print",
+    "vintage",
+    "Vintage Books",
+    "Vintage books",
+    "Lauren Clarey",
+    "Anne Messitte",
+    "coffe shop",
+    "THE WRITERS COFFEE SHOP PUBLISHING HOUSE",
+    "Fifty shades of grey",
+    "fifty shades of grey",
+    "Fifty shades of grey ",
+    "Fifty Shades of Grey",
+    "2012372219",
+    "Erika Leonard"
+   ],
+   "author_name": [
+    "E. L. James"
+   ],
+   "seed": [
+    "/books/OL25777741M",
+    "/books/OL25435912M",
+    "/books/OL25373113M",
+    "/books/OL25416923M",
+    "/books/OL25419054M",
+    "/books/OL25420718M",
+    "/books/OL25421057M",
+    "/books/OL25419658M",
+    "/books/OL25620201M",
+    "/works/OL16700868W",
+    "/subjects/man-woman_relationships",
+    "/subjects/fiction",
+    "/authors/OL7094166A"
+   ],
+   "author_key": [
+    "OL7094166A"
+   ],
+   "subject": [
+    "Man-woman relationships",
+    "Fiction"
+   ],
+   "title": "Fifty shades of Grey",
+   "publish_date": [
+    "20th June 2011",
+    "May 2011",
+    "2011",
+    "March 21, 2013",
+    "2012"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Seattle",
+    "AUSTRALIA",
+    "New York"
+   ],
+   "edition_count": 9,
+   "key": "/works/OL16700868W",
+   "publisher": [
+    "Random House Large Print",
+    "vintage",
+    "Vintage Books",
+    "Vintage books",
+    "Lauren Clarey",
+    "Anne Messitte",
+    "coffe shop",
+    "THE WRITERS COFFEE SHOP PUBLISHING HOUSE"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "2012372219"
+   ],
+   "last_modified_i": 1445023011,
+   "author_alternative_name": [
+    "Erika Leonard"
+   ],
+   "publish_year": [
+    2011,
+    2013,
+    2012
+   ],
+   "first_publish_year": 2011
+  }
+ ]
+}

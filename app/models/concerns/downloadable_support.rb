@@ -1,7 +1,9 @@
-module TimeComSupport
+require 'net/http'
+
+module DownloadableSupport
     private
-    def fetch_data
-        uri = URI.parse("http://time.com")
+    def fetch_data(address)
+        uri = URI.parse(address)
 		http = Net::HTTP.new(uri.host, uri.port)
 		@response = http.get(uri.request_uri)
     rescue Net::OpenTimeout
