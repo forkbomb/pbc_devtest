@@ -16,7 +16,7 @@ describe Providers::APanelProvider do
 
     it 'should calculate price properly' do
         stub_request(:get, "http://time.com/").to_return(body: body, status: 200)
-        expect(@provider.calculate_price).to eq(7)
+        expect(@provider.calculate_price).to eq(101)
     end
 
     it 'should raise error when time.com doesn\'t respond' do
