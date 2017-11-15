@@ -7,8 +7,13 @@ class Private::PrivateController < ApplicationController
         params.require(:target_group_id)
         params.require(:locations)
         params.permit(locations: []).permit(:id, :panel_size)
+        size = 0
         country = Country.find_by_country_code(params[:country_code])
-        render json: { price: country.panel_provider.calculate_price }.to_json
+        # target_group = TargetGroup.find(params[:target_group_id])
+        params[:locations].each do |location|
+            size += location[:panel_size].to_i
+        end
+        render json: { price: country.panel_provider.calculate_price * size }.to_json
     end
 
     private

@@ -57,9 +57,10 @@ describe Private::PrivateController do
         it 'should return price' do 
             @request.headers['Authentication-Id'] = @auth.uuid
             @request.headers['Authentication-Secret'] = @auth.password
+            allow_any_instance_of(Providers::APanelProvider).to receive(:calculate_price).and_return(3)
             stub_request(:get, "http://time.com/").to_return(body: 'body', status: 200)
             get :evaluate_target, { target_group_id: 1, country_code: 'UK', locations: [ { id: 123, panel_size: 200 } ] }
-            expect(JSON.parse(response.body)['price']).to be >= 0
+            expect(JSON.parse(response.body)['price']).to eq(600)
         end
     end
 end
