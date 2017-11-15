@@ -11,7 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171114230200) do
+ActiveRecord::Schema.define(version: 20171115215100) do
+
+  create_table "auth", force: :cascade do |t|
+    t.string "uuid"
+    t.string "token"
+  end
 
   create_table "countries", force: :cascade do |t|
     t.string  "country_code"

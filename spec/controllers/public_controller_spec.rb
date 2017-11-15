@@ -1,6 +1,6 @@
 require_relative '../rails_helper'
 
-describe PublicController do
+describe Public::PublicController do
 
     context 'locations' do
         it 'should return proper locations' do

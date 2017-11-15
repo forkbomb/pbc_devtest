@@ -1,8 +1,9 @@
-class PublicController < ApplicationController
+module CommonActions
+    def self.included(base)
+        base.before_filter :get_country
+    end
 
-    before_filter :get_country
-
-    def locations
+     def locations
         locs = @country.panel_provider.location_groups.includes(:locations).map(&:locations).flatten
         render json: locs.to_json
     end
